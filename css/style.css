@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Containers*/
+
+.alert-container {
+    
+}
+
+.callout-container {
+    height: 100vh;
+    
+  background: url("../image_folder/alcohol-alcoholic-background-301692.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  /*display: flex;*/
+  align-items: center;
+  position: relative;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100;
+    width: 100;
+    background-color: rgbo(0,0,0,0.5);
+}
+    
+
+
+.quates-container {
+    
+}
+.features-container {
+    
+}
+
+/*Navbar*/
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color:transparent;
+    border:0;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+ .navbar-about:hover {
+      color: white;
+  }
+
+/*jumbotron*/
+.jumbotron {
+    background-color: transparent;
+    
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px; 
+    color: white;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+ .jumbotron small {
+     font-size: 60%;
+     font-style: italic;
+     color: #d0d0d0;
+ }
+ .block-divider {
+     width: 230px;
+    height: 10px;
+    border: 0;
+    background-color:#9a354b;
+ }
+ /*Buttons*/
+ 
+ .btn--cta {
+     font-weight: bold;
+     border-radius: 23px;
+     width: 160px;
+     
+ }
+ .btn--red {
+     color: white;
+     background-color:#9a354b;
+     border-color:#9a354b;
+     
+ }
+ 
+ .btn--red:hover,
+ .btn--red:active,
+ .btn--red:focus,
+ .btn--red:active:focus {
+     background-color:#ef708b;
+     border-color:#ef708b;
+     color: white;
+ }
